@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "LiveAware",
+    "slug": "liveaware",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.kshekhorg.liveaware"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.kshekhorg.liveaware"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "dcf9b5f1-eee1-41fc-82ef-b63973847035"
+      }
+    },
+    "owner": "kshekh-org",
+    "updates": {
+      "url": "https://u.expo.dev/dcf9b5f1-eee1-41fc-82ef-b63973847035"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
